@@ -1,13 +1,8 @@
-const  PokeRout  = require('./pokemons.js');
+const PokeRout = require("./pokemons.js");
 
-const { Router } = require('express');
-
-
+const { Router } = require("express");
 
 const router = Router();
-router.use('/pokemons', PokeRout);
-
-
+router.use("/pokemons", PokeRout);
 
 module.exports = router;
-
